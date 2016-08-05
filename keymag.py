@@ -109,7 +109,7 @@ Deseja instalar os componentes necessários para continuar?
 Antes de tudo nos forneça a senha de root se caso precisar para continuar:
         ''');
       while True:
-          os.system("sudo apt-get install aircrack-ng")
+          os.system("sudo apt-get -y install aircrack-ng")
           break
       raw_input("[\033[1;32m*\033[1;m] Instalado com sucesso, pressione ENTER para continuar...\n");
       print ("\n")
